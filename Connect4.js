@@ -77,7 +77,7 @@ var makemove = function(){
             if(val != false){
                 WINNER = true
                 highlight(val)
-                alert("Player " + TURN + "Wins")
+                alert("Player " + TURN + " Wins!")
             }
             else
                 changeturn()

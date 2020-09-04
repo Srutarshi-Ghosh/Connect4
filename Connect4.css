@@ -4,6 +4,7 @@ body{
     text-align: center;
     /* justify-content: center; */
     position: relative;
+    background-color: lightcoral;
 }
 
 #top {
@@ -15,6 +16,13 @@ body{
     margin: 30px;
     font-weight: bold; 
     text-decoration: underline;
+}
+
+#reset_button {
+    background-color: red;
+    top: -30px;
+    position: relative;
+    cursor: pointer;
 }
 
 #game {
